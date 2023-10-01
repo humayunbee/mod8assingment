@@ -47,12 +47,12 @@ class _ImageFeedScreenState extends State<ImageFeedScreen> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(height: 5), // Add some spacing
+                SizedBox(height: 5), 
                 Text(
                   'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry', // Your subtitle text
                   style: TextStyle(
                     fontSize: 16,
-                    color: Colors.grey, // You can customize the color
+                    color: Colors.grey, 
                   ),
                 ),
               ],
@@ -83,7 +83,7 @@ class _ImageFeedScreenState extends State<ImageFeedScreen> {
                     ),
                   ],
                 ),
-                SizedBox(width: 10), // Add some spacing
+                SizedBox(width: 10), 
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -94,12 +94,12 @@ class _ImageFeedScreenState extends State<ImageFeedScreen> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    SizedBox(height: 5), // Add some spacing
+                    SizedBox(height: 5), 
                     Text(
-                      'Subtitle Here', // Your subtitle text
+                      'Subtitle Here',
                       style: TextStyle(
                         fontSize: 16,
-                        color: Colors.grey, // You can customize the color
+                        color: Colors.grey, 
                       ),
                     ),
                   ],
